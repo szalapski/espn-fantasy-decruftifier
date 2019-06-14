@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "ESPN Fantasy Decruftifier",
-  "version": "0.5",
+  "version": "0.6",
   "icons": { "16": "EspnDecruftifier.png"},
   "description": "Improves the ESPN Fantasy GUI by removing unnecessary elements and tightening up margins, padding, and heights.",
   "content_scripts": [

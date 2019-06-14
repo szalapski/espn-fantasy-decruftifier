@@ -1,5 +1,4 @@
 /* things to kill entirely */
-
 .jsx-2081404069, /* "we're making improvements" */
 .jsx-763806470, /* primary nav container */
 .Nav__Primary,
@@ -7,6 +6,92 @@ footer
 {
 	display:none !important;
 }
+
+
+.Table2__table td
+{ /* Tighten up many things */
+	padding: 0 5px !important;  
+}
+.ScoreboardScoreCell__Item,
+.team-page .content-nav,
+.team-page .team-page,
+.NavMain__Secondary
+{ /* Really tighten up */
+	padding: 0 !important;  
+	margin: 0 !important;
+}
+
+.NavMain__Secondary {max-width: unset !important;}
+
+.page-container
+ {
+	margin: 0 !important;
+	width: 100% !important;
+}
+
+@media screen and (min-width:1400px){
+	/* only for the My Team page on wide screens */
+	.layout.is-9-3 {
+		width: 302px;
+		float: left;
+		min-width:302px; 
+	}
+	
+	.layout.is-9-3	.team-details-primary ,
+	.layout.is-9-3	.matchups-display,
+	.layout.is-9-3	.additional-links
+	{
+		display: inline-flex !important; 
+		flex-direction: column !important;
+	}
+		
+	.layout.is-9-3	.team-details-secondary > *,
+	.layout.is-9-3	.links-group > * 
+	{
+		display: block;
+		border: none !important;
+		margin-left: 0 !important;
+		margin-bottom: 5px;
+		padding-left: 0 !important;
+	}
+	
+	.layout.is-9-3	.matchups-display,
+	.layout.is-9-3	.matchups-display .full-schedule-link,
+	.layout.is-9-3	.team-pending-moves-container 
+	{
+		position: static !important;
+	}
+	
+	.layout.is-9-3	.matchup-score 
+	{ 
+		padding: 0 !important;
+		width: 255px;
+	}
+	
+	.layout.is-9-3 .layout__column--1 { padding-right: 12px !important; }
+	.layout.is-9-3 .layout__column--2 {display: none !important;}
+	.layout.is-9-3	.matchups-display > *{ margin-bottom: 10px; }
+	.layout.is-9-3	.team-settings-link {margin-top: -20px;}
+	.layout.is-9-3	.additional-links {margin-top: 20px !important;}
+	.layout.is-9-3	.team-info-container {height: auto !important;}
+	
+	.matchup-label,
+	.links-group,
+	.scoring--period-lineups
+	{ /* Really tighten up */
+		padding: 0 !important;  
+		margin: 0 !important;
+	}
+}
+	
+
+
+.layout__column--2 /* ad container */
+{
+	/* display:none !important; */
+}
+
+
 
 .jsx-3743397412, /* player's head shot */
 .player-column__empty-headshot
@@ -23,22 +108,6 @@ footer
 
 .player-column__athlete, .player-column__athlete span, .player-column__position {
 	display: inline-block !important;
-}
-
-.Table2__table td
-{ /* Tighten up many things */
-	padding: 0 5px !important;  
-}
-.ScoreboardScoreCell__Item,
-.team-page .content-nav,
-.team-page .team-page,
-.matchup-label,
-.links-group,
-.additional-links,
-.scoring--period-lineups
-{ /* Really tighten up */
-	padding: 0 !important;  
-	margin: 0 !important;
 }
 
 .container.jsx-2968158442 /* lineup container */
@@ -68,6 +137,8 @@ div.players-table .Table2__table__wrapper .Table2__Table--fixed--left tr.Table2_
 	height: 24px !important;  /* not sure why 1px gets added to this number? */
 }
 
+.btn.action-buttons{ padding: 0;}
+
 .claim-action-btn ,
 .watch-action-btn {
 	height: 22px !important;
@@ -81,10 +152,6 @@ div.players-table .Table2__table__wrapper .Table2__Table--fixed--left tr.Table2_
 	/* height: 25px !important; */
 /* } */
  
-.player-column__position {
-	margin-left: 1em;
-}
-.player-column__athlete{
-	margin-top: 5px;
-}
-.ScoreboardScoreCell__Item
+.player-column__position {	margin-left: 1em;}
+.table--cell.player__column {padding-right: 0 !important;}
+.player-column__athlete{	margin-top: 5px; }

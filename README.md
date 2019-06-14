@@ -7,6 +7,8 @@ Note that this is fragile and frequently breaks due to changes on ESPN.  It is a
 After installing, the ESPN Fantasy Baseball site, especially player lists, should appear different and better.
 
 ## Release Notes
+## Version 0.6
+  - New wide team view -- fits more on the screen, especially for wider monitors
 
 ### Version 0.5 - First public release
   - Decruftifies the following:
