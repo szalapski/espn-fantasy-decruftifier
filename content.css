@@ -1,0 +1,90 @@
+/* things to kill entirely */
+
+.jsx-2081404069, /* "we're making improvements" */
+.jsx-763806470, /* primary nav container */
+.Nav__Primary,
+footer
+{
+	display:none !important;
+}
+
+.jsx-3743397412, /* player's head shot */
+.player-column__empty-headshot
+{
+	max-height: 20px;
+	max-width: 25px;
+}
+
+.jsx-3687124217, /* header container */
+.my-team-header.jsx-75468952 .additional-links.jsx-75468952   
+{
+	height: auto !important;
+}
+
+.player-column__athlete, .player-column__athlete span, .player-column__position {
+	display: inline-block !important;
+}
+
+.Table2__table td
+{ /* Tighten up many things */
+	padding: 0 5px !important;  
+}
+.ScoreboardScoreCell__Item,
+.team-page .content-nav,
+.team-page .team-page,
+.matchup-label,
+.links-group,
+.additional-links,
+.scoring--period-lineups
+{ /* Really tighten up */
+	padding: 0 !important;  
+	margin: 0 !important;
+}
+
+.container.jsx-2968158442 /* lineup container */
+{
+	padding-top: 0 !important;
+}
+
+
+
+.players-table__sortable .Table2__table .Table2__td ,
+.players-table .Table2__table .Table2__td  
+.players-table__sortable .Table2__table tr.Table2__tr ,
+.players-table .Table2__table tr.Table2__tr  
+{
+	height: 25px;
+}
+
+.players-table__sortable .Table2__table tr.Table2__header-row ,
+.players-table .Table2__table tr.Table2__header-row 
+div.players-table__sortable .Table2__table__wrapper .Table2__Table--fixed--left tr.Table2__tr,
+div.players-table__sortable .Table2__table__wrapper .Table2__Table--fixed--left tr.Table2__tr--lg,
+div.players-table .Table2__table__wrapper .Table2__Table--fixed--left tr.Table2__tr,
+div.players-table .Table2__table__wrapper .Table2__Table--fixed--left tr.Table2__tr--lg,
+.player-info.jsx-2893327412, /* content in name, news, team, position column */
+.player-info.jsx-2448508547  /* the "Empty" player placeholder */
+{
+	height: 24px !important;  /* not sure why 1px gets added to this number? */
+}
+
+.claim-action-btn ,
+.watch-action-btn {
+	height: 22px !important;
+}
+
+/* div.players-table__sortable .Table2__table__wrapper .Table2__table-scroll .Table2__table-scroller tr.Table2__tr, */
+/* div.players-table__sortable .Table2__table__wrapper .Table2__table-scroll .Table2__table-scroller tr.Table2__tr--lg, */
+/* div.players-table .Table2__table__wrapper .Table2__table-scroll .Table2__table-scroller tr.Table2__tr, */
+/* div.players-table .Table2__table__wrapper .Table2__table-scroll .Table2__table-scroller tr.Table2__tr--lg, */
+/* { */
+	/* height: 25px !important; */
+/* } */
+ 
+.player-column__position {
+	margin-left: 1em;
+}
+.player-column__athlete{
+	margin-top: 5px;
+}
+.ScoreboardScoreCell__Item
