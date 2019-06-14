@@ -12,5 +12,5 @@ After installing, the ESPN Fantasy Baseball site, especially player lists, shoul
   - Decruftifies the following:
     - Player list, head shots, buttons, and teams/positions/stats
 	- Headers, matchups, and additional links
-  - Eliminates the ESPN navigation, the "we're making improvements" banner}, and the site footer
+  - Eliminates the ESPN navigation, the "we're making improvements" banner, and the site footer
 
