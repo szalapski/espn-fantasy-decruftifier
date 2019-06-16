@@ -12,6 +12,7 @@ The extension can be installed from [https://chrome.google.com/webstore/detail/e
 
 ### Version 0.6.1
   - A little color helps
+  - Improved wide view--now works with any window wider than 1255px
   - Players faces zoomed in
   - Made room for bottom notifications without blocking the view
 
