@@ -9,7 +9,13 @@ After installing, the ESPN Fantasy Baseball site, especially player lists, shoul
 The extension can be installed from [https://chrome.google.com/webstore/detail/espn-fantasy-decruftifier/kejjliglnpbajhahgieahppocjmgbhjh]
 
 ## Release Notes
-## Version 0.6
+
+### Version 0.6.1
+  - A little color helps
+  - Players faces zoomed in
+  - Made room for bottom notifications without blocking the view
+
+### Version 0.6
   - New wide team view -- fits more on the screen, especially for wider monitors
 
 ### Version 0.5 - First public release

@@ -15,26 +15,37 @@ footer
 .ScoreboardScoreCell__Item,
 .team-page .content-nav,
 .team-page .team-page,
-.NavMain__Secondary
+.NavMain__Secondary,
+.transaction-details
 { /* Really tighten up */
 	padding: 0 !important;  
 	margin: 0 !important;
+}
+
+.table--cell { 
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.table--cell.stat-whip,
+.table--cell.stat-avg 
+{ 
+	padding-right: 4px !important;
 }
 
 .NavMain__Secondary {max-width: unset !important;}
 
 .page-container
  {
-	margin: 0 !important;
+	margin: 0 0 40px 0 !important;
 	width: 100% !important;
 }
 
-@media screen and (min-width:1400px){
+@media screen and (min-width:1258px){
 	/* only for the My Team page on wide screens */
 	.layout.is-9-3 {
-		width: 302px;
+		width: 200px;
 		float: left;
-		min-width:302px; 
+		min-width:200px; 
 	}
 	
 	.layout.is-9-3	.team-details-primary ,
@@ -65,7 +76,7 @@ footer
 	.layout.is-9-3	.matchup-score 
 	{ 
 		padding: 0 !important;
-		width: 255px;
+		width: 160px;
 	}
 	
 	.layout.is-9-3 .layout__column--1 { padding-right: 12px !important; }
@@ -74,6 +85,18 @@ footer
 	.layout.is-9-3	.team-settings-link {margin-top: -20px;}
 	.layout.is-9-3	.additional-links {margin-top: 20px !important;}
 	.layout.is-9-3	.team-info-container {height: auto !important;}
+	.layout.is-9-3	.team-record {margin-left: 0 !important;}
+	.layout.is-9-3	.team-rank {margin-left: 0 !important;}
+	.layout.is-9-3	.ScoreCell_Score--scoreboard { font-size: 12px !important;}
+	.layout.is-9-3	.ScoreCell_Score--scoreboard .figure { margin: 0 !important;}
+	.layout.is-9-3	.ScoreCell__Team--scoreboard.pl2 { padding-left: 0 !important;}
+	.layout.is-9-3	.ScoreCell__Team--scoreboard.pr2 { padding-right: 0 !important; }
+	.layout.is-9-3	.ScoreCell__Truncate { margin-right: 0 !important; }
+	.layout.is-9-3	.ScoreCell__TeamName { font-size: 12px; }
+	
+	
+	.layout.is-9-3 .team-setting-form { float: left;}
+	.games-footercol { clear: both;}
 	
 	.matchup-label,
 	.links-group,
@@ -82,16 +105,23 @@ footer
 		padding: 0 !important;  
 		margin: 0 !important;
 	}
-}
 	
-
-
-.layout__column--2 /* ad container */
-{
-	/* display:none !important; */
+	.ScoreboardScoreCell__Competitors.matchup-teams-score,
+	.ScoreCell_Score--scoreboard
+	{ /* Really tighten up */
+		border: none !important;
+		padding: 0 !important;
+	}
+	
 }
 
+.tabs__list__item button.tabs__link {
+	padding: 4px 12px !important;
+}
 
+.player-headshot img {
+	transform: scale(3) translate(0px, 2px);
+}
 
 .jsx-3743397412, /* player's head shot */
 .player-column__empty-headshot
@@ -115,13 +145,13 @@ footer
 	padding-top: 0 !important;
 }
 
-
-
 .players-table__sortable .Table2__table .Table2__td ,
 .players-table .Table2__table .Table2__td  
 .players-table__sortable .Table2__table tr.Table2__tr ,
 .players-table .Table2__table tr.Table2__tr  
 {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 	height: 25px;
 }
 
@@ -152,6 +182,13 @@ div.players-table .Table2__table__wrapper .Table2__Table--fixed--left tr.Table2_
 	/* height: 25px !important; */
 /* } */
  
-.player-column__position {	margin-left: 1em;}
+.player-column__position {	
+    position: relative;
+    top: -3px;
+    margin-left: 4px;
+}
 .table--cell.player__column {padding-right: 0 !important;}
 .player-column__athlete{	margin-top: 5px; }
+.news.icon__svg { background-color: #fda;}
+.mt3.transaction-details, .mb3.transaction-details { margin: 0 !important;}
+.recentActivityDetail .transactionCell { margin-bottom: 10px;}
