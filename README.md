@@ -1,5 +1,5 @@
 # ESPN Fantasy Decruftifier
-## Extensions for Chrome and Firefox
+*Extensions for Chrome and Firefox*
 
 Improves the ESPN Fantasy GUI by removing unnecessary elements and tightening up margins, padding, and heights.
 
