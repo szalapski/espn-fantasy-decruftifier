@@ -11,7 +11,8 @@ The extension can be installed from [https://chrome.google.com/webstore/detail/e
 ## Release Notes
 
 ### Version 0.6.2
-  - Better hiding of message
+  - Better hiding of messages
+  - Fixes to Auction Summary, players on rosters, and trade offers
 
 ### Version 0.6.1
   - A little color helps
