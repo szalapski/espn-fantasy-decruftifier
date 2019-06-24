@@ -43,7 +43,7 @@ footer
 @media screen and (min-width:1258px){
 	/* only for the My Team page on wide screens */
 	.layout.is-9-3 {
-		width: 200px;
+		/* width: 200px; */
 		float: left;
 		min-width:200px; 
 	}
@@ -79,12 +79,22 @@ footer
 		width: 160px;
 	}
 	
-	.layout.is-9-3  .teamName { 
+	.layout.is-9-3 .team-info-container .team-details-primary  .teamName { 
 		white-space: normal !important; 
 		font-size: 20px !important;
 	}
 	
+	.layout.is-9-3  .layout__column { width: unset;}
+		
+	
 	.layout.is-9-3  .layout__column--1 { padding-right: 12px !important; }
+	
+	.layout.is-9-3  .layout__column--1 .my-team-header,
+	.layout.is-9-3  .layout__column--1 .player--filters
+	{ 
+		width: 160px; 
+	}
+	.layout.is-9-3  .layout__column--1 .subHeader { display: block; }
 	.layout.is-9-3  .layout__column--2 {display: none !important;}
 	.layout.is-9-3	.matchups-display > *{ margin-bottom: 10px; }
 	.layout.is-9-3	.team-settings-link {margin-top: -20px;}
@@ -97,11 +107,7 @@ footer
 	.layout.is-9-3	.ScoreCell__Team--scoreboard.pl2 { padding-left: 0 !important;}
 	.layout.is-9-3	.ScoreCell__Team--scoreboard.pr2 { padding-right: 0 !important; }
 	.layout.is-9-3	.ScoreCell__Truncate { margin-right: 0 !important; }
-	
-	.layout.is-9-3	.ScoreCell__TeamName 
-	{ 
-		font-size: 12px; `
-	}
+	.layout.is-9-3	.ScoreCell__TeamName { font-size: 12px; }
 
 	.layout.is-9-3 .team-setting-form { float: left;}
 	.games-footercol { clear: both;}
@@ -199,7 +205,10 @@ div.players-table .Table2__table__wrapper .Table2__Table--fixed--left tr.Table2_
 .btn.action-buttons{ padding: 0;}
 
 .claim-action-btn ,
-.watch-action-btn {
+.watch-action-btn ,
+.drop-action-btn , 
+.trade-action-btn 
+{
 	height: 22px !important;
 }
 
