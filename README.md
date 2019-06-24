@@ -10,6 +10,9 @@ The extension can be installed from [https://chrome.google.com/webstore/detail/e
 
 ## Release Notes
 
+### Version 0.6.2
+  - Better hiding of message
+
 ### Version 0.6.1
   - A little color helps
   - Improved wide view--now works with any window wider than 1255px

@@ -1,5 +1,5 @@
 /* things to kill entirely */
-.jsx-2081404069, /* "we're making improvements" */
+.message, /* "we're making improvements" */
 .jsx-763806470, /* primary nav container */
 .Nav__Primary,
 footer
@@ -105,6 +105,23 @@ footer
 
 	.layout.is-9-3 .team-setting-form { float: left;}
 	.games-footercol { clear: both;}
+	.layout.is-9-3 .player--filters .player--filters--reset-button{
+		position: static;
+	}
+	.layout.is-9-3 .player--filters .filter.statQualifier .range-input{
+		width: 75px;
+	}
+	.layout.is-9-3 .filter {
+		float: unset;
+	}
+	.layout.is-9-3 .filter.statQualifier .flex{
+		display: block; /* make the stat qualifier non-flexbox */
+	}
+	.layout.is-9-3 .player--filters .player--search {
+		position: static;
+		top: 0;
+		width: 170px;
+	}
 	
 	.matchup-label,
 	.links-group,
