@@ -150,16 +150,15 @@ footer
 	padding: 4px 12px !important;
 }
 
-.player-headshot img {
-	transform: scale(3) translate(0px, 2px);
-}
-
-.jsx-3743397412, /* player's head shot */
-.player-column__empty-headshot
+.rosterContainer .player-headshot img ,
+.rosterContainer .player-column__empty-headshot
 {
+	transform: scale(3) translate(4px, 6px);
 	max-height: 20px;
 	max-width: 25px;
 }
+
+
 
 .jsx-3687124217, /* header container */
 .my-team-header.jsx-75468952 .additional-links.jsx-75468952   
