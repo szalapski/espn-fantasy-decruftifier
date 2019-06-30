@@ -1,5 +1,4 @@
-# ESPN Fantasy Decruftifier
-*Extensions for Chrome and Firefox*
+# Decruftifier for ESPN Fantasy Chrome Extension
 
 Improves the ESPN Fantasy GUI by removing unnecessary elements and tightening up margins, padding, and heights.
 
@@ -12,11 +11,12 @@ The extension can be installed from [https://chrome.google.com/webstore/detail/e
 ## Release Notes
 
 ### Version 0.6.2
-  - Better hiding of messages
-  - Fixes to Auction Summary, players on rosters, player card, and trade offers
+  - Small fixes
+  - Changed name to avoid confusion
 
 ### Version 0.6.1
   - A little color helps
+  - Further tightening of padding to better use screen spaces
   - Improved wide view--now works with any window wider than 1255px
   - Players faces zoomed in
   - Made room for bottom notifications without blocking the view
