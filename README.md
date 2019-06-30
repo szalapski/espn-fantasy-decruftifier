@@ -10,7 +10,7 @@ The extension can be installed from [https://chrome.google.com/webstore/detail/e
 
 ## Release Notes
 
-### Version 0.6.2
+### Version 0.6.3
   - Small fixes
   - Changed name to avoid confusion
 
